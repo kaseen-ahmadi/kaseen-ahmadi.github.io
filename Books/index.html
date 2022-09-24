@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 62.5%;
+}
+
+.container{
+    background-image: url(programs/Display/car.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1rem;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+    display: flex;
+    box-shadow: 1px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ul{
+    list-style-type: none;
+    float: right;
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+    margin-left: 10rem;
+    
+}
+li{
+    float: left;
+    margin-left: 5rem;
+    color: aqua;
+    font-size: 2rem;
+    font-weight: 700;
+    background-size: cover;
+}
+a:hover{
+    text-shadow: 12px 12px 12px 5px aqua;
+    color: tomato;
+
+}
+p{
+    font-size: 2rem;
+    color: gold;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-right: 1rem;
+    border: solid 0.2rem rgba(255, 217, 0, 0.579);
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+    padding-bottom: 0rem;
+    margin-left: 3rem;
+}
+a{
+    color: aqua;
+}
+a:link{
+    text-decoration: none;
+}
+#Diva{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    border: solid white;
+    position: absolute;
+    text-align: center;
+    padding: 2rem;
+    width: 80rem;
+    font-weight: 900;
+    color: white;
+    background-color:transparent;
+    margin-left: 26rem;
+    margin-top: 15rem;
+    backdrop-filter: blur(1px);
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 5px 12px black;
+}
+
+button{
+    background-color: transparent;
+    border: solid aqua 5px;
+    border-radius: 12px;
+    margin-top: 28%;
+    margin-left: 63%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 4px 1px aqua;
+    padding: 4px;
+    mix-blend-mode: overlay;
+    text-shadow: 20px 20px 4px 1px rgba(0, 0, 0, 0.7);
+}
+
+span.a{
+    color: rgb(244, 0, 0);
+}
+.an{
+    color: red;
+}
+#home{
+    color: tomato;
+}
+
+
+
+
+/* responsivness */
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 55.5%;
+    }
+    div .yes{
+        margin-top: 200%;
+    }
+}
+/* Smart Phones */
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    div button{
+        margin-top: 30%;
+        display: block;
+        top: 25rem;
+        position: absolute;
+    }
+
+    /* header{
+        position: relative;
+    }
+    .diva{
+        display: none;
+        font-size: relative;
+    }
+    body{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--yellow);
+        width: 100%;
+        padding: 3rem;
+    } */
+    </style>
+    
+
+
+
+
+
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <header> 
+            <p><span class="a">S</span> & <span class="a" >T</span> </p>
+            <ul>
+                <li id="home">Home</li>
+                <li><a href="htmls/Investment.html">Investment</a> </li>
+                <li><a href="htmls/Yoga.html">Yoga</a></li>
+                <li><a href=""> MBA</a></li>
+                <li><a href="">Development</a> </li>
+             </ul>
+        </header>
+        <div id="Diva">
+            Welcome to The <span class="an"><a href="htmls/sayed.html" class="an">Ahmadi</a> </span>  And <span class="a"> <a href="htmls/kaseen.html" class="an"> Kasin</a> </span> Business
+        </div>
+        <button id="yes"><a href="htmls/Investment.html">Lets Get Start</a> </button>
+    </div>
+    
+    
+</body>
+
+</html>
